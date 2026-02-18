@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python*)",
+      "Bash(pip install*)",
+      "Bash(mkdir*)",
+      "Bash(cat*)",
+      "Bash(ls*)",
+      "Bash(cd*)",
+      "Read(*)",
+      "Write(~/**)"
+    ],
+    "deny": [
+      "Bash(rm -rf*)",
+      "Bash(sudo*)",
+      "Bash(curl*)",
+      "Bash(wget*)"
+    ]
+  }
+}
