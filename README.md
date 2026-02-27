@@ -17,7 +17,7 @@ claude --version
 
 ```bash
 # 1. リポジトリをクローン
-git clone https://github.com/r-kurosu/ai-workshop-20260219.git
+zipをダウンロード（gitがある場合git clone xxx）
 cd ai-workshop-20260219
 
 # 2. 環境変数ファイルを作成
@@ -41,6 +41,7 @@ claude "セットアップして"
 ## ハンズオンの進め方
 
 各ステップで、Claude Codeに以下のように指示してください：
+mdファイルにはプロンプトを記載しているので、適宜更新してください
 
 ```bash
 # Step 1: ペルソナ生成
